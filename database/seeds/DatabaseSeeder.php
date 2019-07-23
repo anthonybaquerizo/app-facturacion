@@ -18,7 +18,6 @@ class DatabaseSeeder extends Seeder
         $this->call(TipoContactoSeed::class);
         $this->call(OperacionSeeder::class);
 
-
         // Se crea la empresa principal
         $this->call(EmpresaPrincipalSeed::class);
     }
