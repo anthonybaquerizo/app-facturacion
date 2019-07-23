@@ -39,7 +39,7 @@ class DatabaseSeeder extends Seeder
         DB::table("operaciones")->truncate();
         DB::table("usuario_sucursales")->truncate();
         DB::table("usuarios")->truncate();
-
+        // Agregando mensaje de prueba
         DB::table("tipos_contacto")->truncate();
     }
 
